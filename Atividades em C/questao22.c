@@ -38,7 +38,7 @@ int main()
 	   resultado = a / b;
 	   printf("O resultado da Divisão é: %.2f\n", resultado);
 	   } else {
-            printf("Erro: Nao eh possivel dividir por zero.\n");
+            printf("Erro: Nao é possivel dividir por zero.\n");
 	   }
 	   
 	}else{
@@ -47,3 +47,4 @@ int main()
 
 	return 0;
 }
+
