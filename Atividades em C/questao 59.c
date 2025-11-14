@@ -5,7 +5,7 @@
 
 int main()
 {
-    setlocale(LC_ALL, "Portuguese");
+    setlocale(LC_ALL, "");
     
     int vetorV[TAMANHO_DO_VETOR] = {100, 20, 3, 41, 5, 6, 7, 8, 9, 100};
     int i, maiorValor;
