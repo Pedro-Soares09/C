@@ -13,7 +13,7 @@ int main()
     int i;
     char sexo, pesquisa;
 
-    for(i = 0; i < 2; i++){
+    for(i = 0; i <=20; i++){
         printf("Digite o sexo (M/F): ");
         scanf(" %c", &sexo);
         sexo = toupper(sexo);
