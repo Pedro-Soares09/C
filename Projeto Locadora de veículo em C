@@ -1,4 +1,4 @@
-/*3™ ciclo de LÛgica de Matem·tica e Algoritmo.
+/*3¬™ ciclo de L√≥gica de Matem√°tica e Algoritmo.
 Alunos: Pedro Paulo, Hugo Cavalcanti, Marcos e Leonardo, Tena: ALUGUEL DE VEICULOS;
 Precisa conter: CADASTRO DE VEICULOS,
 CADASIRO DE CLIENTES;
@@ -105,7 +105,7 @@ void cadastrarVeiculo() {
     printf("Placa (Ex: AAA0000): ");
     scanf(" %s", novoVeiculo->placa);
     
-    printf("Valor da di·ria: ");
+    printf("Valor da di√°ria: ");
     scanf("%lf", &novoVeiculo->ValorDiaria);
     
     novoVeiculo->disponibilidade = 1;
@@ -132,7 +132,7 @@ void cadastrarCliente() {
     printf("Nome: ");
     scanf(" %[^\n]", novoCliente->nome); 
     
-    printf("CPF (Somente n˙meros): ");
+    printf("CPF (Somente n√∫meros): ");
     scanf(" %s", novoCliente->cpf);
 
     totalClientes++;
@@ -154,12 +154,12 @@ void verFrota() {
         char status[15];
         
         if (v.disponibilidade == 1) {
-            strcpy(status, "DisponÌvel");
+            strcpy(status, "Dispon√≠vel");
         } else {
             strcpy(status, "ALUGADO");
         }
         
-        printf("ID: %d | Modelo: %s | Placa: %s | Di·ria: R$ %.2f | Status: %s\n", 
+        printf("ID: %d | Modelo: %s | Placa: %s | Di√°ria: R$ %.2f | Status: %s\n", 
                v.id, 
                v.modelo, 
                v.placa, 
@@ -223,4 +223,5 @@ void realizarAluguel() {
     if (veiculoEncontrado == 0) {
         printf("\nVeiculo com ID %d nao encontrado.\n", idVeiculo);
     }
+
 }
